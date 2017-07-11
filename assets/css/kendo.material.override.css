@@ -1,0 +1,521 @@
+body.blur > *:not(.k-widget) {
+  filter: grayscale(100%);
+}
+
+body.blur .k-animation-container {
+  filter: grayscale(0);
+}
+
+.k-block, .k-content, .k-dropdown .k-input, .k-popup, .k-toolbar, .k-widget {
+  color: #000;
+}
+
+.k-content ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+.k-content ul ~ p {
+  margin-top: 20px;
+}
+
+div.k-animation-container div.k-list-container.k-state-border-up {
+  border-top: none;
+}
+
+.k-window-actions a.k-window-action.k-link, .k-window-actions a.k-window-action.k-link.k-state-hover {
+  opacity: 1;
+}
+
+.k-i-arrow-n, .k-i-arrow-s, .k-i-arrow-w, .k-i-arrow-e, .k-i-seek-w, .k-i-seek-e {
+  opacity: 1;
+}
+
+.k-window-titlebar .k-window-actions {
+  padding-top: .4em;
+}
+
+.k-header {
+  background-color: transparent;
+}
+
+.k-calendar .k-header, .k-state-hover, .k-calendar .k-today.k-state-hover, .k-calendar .k-header .k-state-hover, .k-calendar td.k-state-selected, .k-calendar td.k-state-selected:hover, .k-window-titlebar.k-header {
+  background-color: #00d573;
+}
+
+.k-calendar .k-today {
+  background-color: #081c24;
+}
+
+.k-draghandle.k-state-selected:hover, .k-ghost-splitbar-horizontal, .k-ghost-splitbar-vertical, .k-list>.k-state-highlight, .k-list>.k-state-selected, .k-marquee-color, .k-panel>.k-state-selected, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-state-selected, .k-state-selected:link, .k-state-selected:visited {
+  color: #00d573;
+}
+
+.k-calendar .k-today:active {
+  -webkit-box-shadow: inset 0 0 0 1px #00d573;
+  box-shadow: inset 0 0 0 1px #00d573;
+}
+
+.k-window-titlebar .k-state-hover, .k-grid .k-header .k-button, .k-grid .k-header .k-button:hover {
+  background-color: #00d573;
+  border-color: #00d573;
+}
+
+.k-popup .k-list .k-item>.k-group {
+  background: #00d573;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.k-popup>.k-group-header, .k-popup>.k-virtual-wrap>.k-group-header {
+  font-weight: 600;
+}
+
+section.content a.k-button:hover, section.content a.k-button:active, .k-dialog .k-window-titlebar {
+  text-decoration: none;
+  color: #fff;
+}
+
+.k-dialog .k-content a {
+  color: #00d573;
+}
+
+.k-button.k-button-icontext .k-icon, .k-button.k-button-icontext .k-image {
+  vertical-align: bottom;
+}
+
+.k-header.k-grid-toolbar {
+  border-color: #00d573;
+}
+
+.disabled .k-header.k-grid-toolbar {
+  padding: 0;
+}
+
+.disabled .k-header.k-grid-toolbar {
+  border-color: transparent;
+}
+
+.k-grid td.k-state-selected:hover, .k-grid tr.k-state-selected:hover td {
+  background-color: #eee;
+}
+
+.k-grid td.k-state-selected, .k-grid tr.k-state-selected>td {
+  border-color: #00d573;
+}
+
+.k-grid tr:hover {
+  background-color: #fff;
+}
+
+.k-grid tr:last-child td {
+  border-bottom: none;
+}
+
+.k-overflow-container .k-primary, .k-primary {
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+  color: #000;
+  font-weight: 600;
+}
+
+.k-overflow-container .k-primary:hover, .k-primary:hover {
+  background-color: #00d573;
+  border-color: #00d573;
+}
+
+.k-calendar .k-footer .k-nav-today {
+  color: #000;
+}
+
+.k-list > .k-state-selected.k-state-focused {
+  color: #000;
+  font-weight: bold;
+}
+
+div.k-multiselect-wrap.k-floatwrap ul {
+  margin-bottom: 0;
+}
+
+div.k-multiselect-wrap.k-floatwrap ul li.k-button {
+  margin: 2px !important;
+}
+
+.k-widget.k-notification {
+  border: none;
+}
+
+.k-widget.k-notification.k-notification-success {
+  background-color: #5FB662;
+  color: #fff;
+}
+
+.k-widget.k-notification.k-notification-error {
+  background-color: #FF3448;
+  color: #fff;
+}
+
+div.notification {
+  width: 100%;
+  padding: 14px 20px;
+}
+
+div.notification span.left {
+  float: left;
+  box-sizing: border-box;
+  max-width: 300px;
+}
+
+div.notification span.glyphicons {
+  float: left;
+  width: 26px;
+  padding-right: 14px;
+  font-size: 1.6em;
+}
+
+div.notification span h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+
+div.notification span p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+div.notification span a {
+  color: #fff;
+}
+
+div.notification span ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  color: #fff;
+  margin-top: 4px;
+  margin-left: 16px;
+}
+
+.k-widget.k-tooltip {
+  border-color: rgba(40,40,40,0.9);
+  background-color: rgba(40,40,40,0.9);
+}
+
+.k-tooltip-closable .k-tooltip-content {
+  padding: 0;
+}
+
+/*.k-callout {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}*/
+
+.k-callout-s {
+  border-top-color: rgba(40,40,40,0.9);
+}
+
+.k-callout-w {
+  border-right-color: rgba(40,40,40,0.9);
+}
+
+.k-callout-n {
+  border-bottom-color: rgba(40,40,40,0.9);
+}
+
+.k-callout-e {
+  border-left-color: rgba(40,40,40,0.9);
+}
+
+.k-multiselect-wrap .k-input {
+   font-size: 0.9em;
+   padding: 0;
+}
+
+div.k-multiselect-wrap ul li.k-button {
+  display: block;
+  font-size: 0.9em;
+}
+
+.k-dropdown-wrap, .k-popup .k-item {
+  font-size: 0.9em;
+}
+
+.k-multiselect-wrap {
+  border: none;
+  border-radius: 0;
+}
+
+.k-button.k-upload-button {
+  display: block;
+  /*width: 100%;*/
+}
+
+.k-dropzone em {
+  visibility: visible;
+  display: inline-block;
+  padding-top: 16px;
+}
+
+.k-dropzone-hovered {
+  background-color: #4d6620;
+}
+
+.k-dropzone-hovered em {
+  color: #fff;
+}
+
+.k-filename {
+  font-size: 0.9em;
+  margin-left: -20px;
+}
+
+.k-icon.k-i-tick {
+  margin-top: -2px;
+  margin-left: 10px;
+}
+
+ul.k-upload-files {
+  list-style-type: none !important;
+  margin-left: 0 !important;
+}
+
+.k-upload-status {
+  margin-left: 20px;
+}
+
+.k-file.k-file-success {
+  color: #fff;
+  background-color: #5FB662;
+}
+
+.k-edit-form-container .k-primary {
+  /*color: #c40145;*/
+}
+
+div.k-edit-field p, div.k-grid-content table td p {
+  line-height: 30px;
+  display: inline-block;
+}
+
+div.k-edit-field p img {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+div.k-edit-label {
+  line-height: 10px;
+  height: 24px;
+}
+
+span.k-widget.k-combobox input {
+  margin-bottom: 1px;
+}
+
+.k-edit-form-container {
+  min-width: 400px;
+  width: auto;
+}
+
+.k-edit-field>input[type=checkbox], .k-edit-field>input[type=radio] {
+  margin-top: 12px;
+}
+
+a.k-grid-edit:hover, a.k-grid-delete:hover {
+  cursor: pointer;
+}
+
+a.k-grid-edit + a.k-grid-delete {
+  margin-left: 10px;
+}
+
+.k-grid tr.k-state-selected, a.k-grid-edit span.glyphicons, a.k-grid-delete span.glyphicons, .k-grid tr.k-state-selected a.k-grid-edit span.glyphicons, .k-grid tr.k-state-selected a.k-grid-delete span.glyphicons {
+  color: #444;
+}
+
+a.k-grid-edit span.glyphicons, a.k-grid-delete span.glyphicons {
+  line-height: 24px;
+}
+
+.k-grid tr.k-state-selected {
+  background-color: #fff;
+}
+
+.k-grid-update {
+  float: right;
+}
+
+.k-picker-wrap .k-select, .k-numeric-wrap .k-select, .k-dropdown-wrap .k-select {
+  line-height: 2.1em;
+}
+
+span.k-datepicker .k-picker-wrap {
+  /*height: 37px;*/
+}
+
+section.content .k-autocomplete input, section.content .k-autocomplete input, section.content .k-picker-wrap input, section.content .k-numeric-wrap input {
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+
+section.content .k-datepicker .k-picker-wrap input {
+  height: 36px;
+}
+
+
+table.k-editor, .k-list-container, form.edit .k-picker-wrap.k-state-default > .k-select, form.edit .k-multiselect.k-header, form.edit .k-popup.k-list-container, form.edit .k-autocomplete.k-state-default, form.edit .k-picker-wrap.k-state-default, form.edit .k-numeric-wrap.k-state-default, form.edit .k-dropdown-wrap.k-state-default {
+  /*border-color: #bbb;*/
+}
+
+.k-list-container {
+  border-color: #f5f5f5;
+}
+
+table.k-editor {
+  box-sizing: border-box;
+}
+
+table.k-editor.disabled {
+  border-color: #e6e6e6;
+}
+
+.k-multiselect-wrap li {
+  border-color: #e6e6e6;
+}
+
+.k-multiselect-wrap li span {
+  line-height: 1.8em;
+}
+
+table.k-editor .k-editable-area {
+  border: none;
+}
+
+.k-edit-field input, .k-edit-field textarea {
+  text-indent: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.k-edit-field textarea {
+  border: 1px solid #bbb;
+  height: 40px;
+  color: #333;
+  border-radius: 2px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 10px;
+  outline: none;
+  font: regular 1.0em Arial, sans-serif;
+}
+
+.k-edit-field input[disabled], .k-edit-field textarea[disabled] {
+  border-color: #e6e6e6;
+  color: #aeaeae;
+  -webkit-text-fill-color: #aeaeae;
+  background-color: #fff;
+}
+
+.k-edit-field input[disabled]:hover, .k-edit-field textarea[disabled]:hover {
+  box-shadow: none;
+}
+
+.k-flatcolorpicker .k-selected-color input.k-color-value {
+  outline: none;
+}
+
+.k-tooltip-content {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.k-tooltip {
+  padding: 8px 10px 10px 11px;
+  border-radius: 3px;
+}
+
+.k-widget.k-tooltip.tmdb_theme {
+  background-color: #081c25;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.tmdb_theme .k-callout-s {
+  border-top-color: rgba(8,28,37,1);
+}
+
+.tmdb_theme .k-callout-w {
+  border-right-color: rgba(8,28,37,1);
+}
+
+.tmdb_theme .k-callout-n {
+  border-bottom-color: rgba(8,28,37,1);
+}
+
+.tmdb_theme .k-callout-e {
+  border-left-color: rgba(8,28,37,1);
+}
+
+.k-widget.k-tooltip.tmdb_theme_light {
+  background-color: #97f8cd;
+  border-radius: 5px;
+  color: #000;
+  text-align: left;
+}
+
+.tmdb_theme_light .k-callout-s {
+  border-top-color: rgba(151,248,205,1);
+}
+
+.tmdb_theme_light .k-callout-w {
+  border-right-color: rgba(151,248,205,1);
+}
+
+.tmdb_theme_light .k-callout-n {
+  border-bottom-color: rgba(151,248,205,1);
+}
+
+.tmdb_theme_light .k-callout-e {
+  border-left-color: rgba(151,248,205,1);
+}
+
+.tmdb_theme .loading_wrapper, .tmdb_theme_light .loading_wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tmdb_theme .k-loading-image, .tmdb_theme_light .k-loading-image {
+  background-image: none;
+  background-position: 2000px 2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
